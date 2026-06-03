@@ -1,0 +1,27 @@
+{
+  "name": "promptmaster-ai",
+  "version": "1.0.0",
+  "description": "AI SaaS Platform untuk Generate Optimized Prompts untuk berbagai AI Models",
+  "private": true,
+  "workspaces": [
+    "packages/frontend",
+    "packages/backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "type-check": "npm run type-check --workspaces"
+  },
+  "keywords": [
+    "AI",
+    "Prompt Engineering",
+    "SaaS",
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+  ],
+  "author": "exsperimen021-afk",
+  "license": "MIT"
+}
